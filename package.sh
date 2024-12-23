@@ -10,7 +10,8 @@ cd ios
 rm -rf Pods
 rm -rf Podfile.lock
 
-bundle exec pod install
+pod install
+# bundle exec pod install
 echo $"pods was done"
 
 cd ..
