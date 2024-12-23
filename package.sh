@@ -5,7 +5,7 @@ echo $"old files deleted"
 npm i
 echo $"npm packages was done"
 
-bundle install --path vendor/bundle
+# bundle install --path vendor/bundle
 cd ios
 rm -rf Pods
 rm -rf Podfile.lock
